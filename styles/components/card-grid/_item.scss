@@ -1,0 +1,22 @@
+&__item {
+    margin-top: $space;
+
+    @media screen and (min-width: breakpoint(small)) {
+        float: left;
+        margin-left: 1.6rem;
+        margin-top: 0;
+        width: calc((100% / 3) - (3.2rem / 3) - 0.1px);
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            clear: right;
+        }
+    }
+
+    &:first-child {
+        margin-top: 0;
+    }
+}

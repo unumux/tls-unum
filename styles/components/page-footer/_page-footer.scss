@@ -1,0 +1,15 @@
+@import "default-variables";
+
+&-page-footer {
+    @include full-bleed;
+    
+    background-color: $tls-page-footer-background-color;
+    color: $tls-page-footer-text-color;
+    margin-top: $space-l;
+    padding-bottom: $space-l;
+    padding-top: $space-l;
+
+    @import "branding";
+    @import "copyright";
+    @import "disclaimer";
+}

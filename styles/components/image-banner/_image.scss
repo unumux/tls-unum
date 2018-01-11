@@ -1,0 +1,21 @@
+&::before {
+    content: "";
+    display: block;
+    background-image: url('../images/banner-image-unum.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -$space-l;
+    min-height: 200px;
+    
+    @media screen and (min-width: breakpoint(large)) {
+        position: absolute;
+        margin: 0;
+        margin-left: -$space-l;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        width: 70%;
+        z-index: -1;
+    }
+}

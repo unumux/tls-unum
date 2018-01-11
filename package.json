@@ -1,0 +1,25 @@
+{
+  "name": "tls-disablement",
+  "version": "1.0.0",
+  "description": "TLS Disablement Page",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@unumux/theme-unum-default": "^0.5.0",
+    "@unumux/ux-build-tools": "^3.7.0",
+    "@unumux/willow": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unumux/tls-unum.git"
+  },
+  "author": "Kyle Wagner <Keale2@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/unumux/tls-unum/issues"
+  },
+  "homepage": "https://github.com/unumux/tls-unum#readme"
+}

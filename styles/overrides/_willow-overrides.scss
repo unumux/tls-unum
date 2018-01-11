@@ -1,0 +1,23 @@
+.willow-page-header {
+    padding-bottom: $space;
+    padding-top: $space;
+
+    &__branding {
+
+        &:first-child {
+            margin: 0;
+        }
+    }
+}
+
+.willow-card {
+    max-width: none;
+
+    &[href]:hover {
+        transform: translateY(-3px);
+    }
+}
+
+.willow-page-content {
+    padding: 0;
+}

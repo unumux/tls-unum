@@ -1,0 +1,15 @@
+&-image-banner {
+    padding-bottom: $space-l;
+    padding-top: $space-l;
+    margin: $space-stack;
+    
+    @media screen and (min-width: breakpoint(large)) {
+        margin: $space-stack-xl;
+        padding-bottom: space(4);
+        padding-top: space(4);
+        position: relative;
+    }
+
+    @import "image";
+    @import "inner";
+}

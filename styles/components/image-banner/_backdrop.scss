@@ -1,0 +1,12 @@
+&::before {
+    background-color: #eee;
+    background-image: radial-gradient(circle,hsla(0,0%,100%,.5) 0,rgba(200,236,230,.5) 12.52%,rgba(212,232,241,.5) 52.01%,hsla(0,0%,89%,.5) 100%),linear-gradient(180deg,#f2f2f2,#f5f4f4 48.85%,#f6f6f6);
+    content: "";
+    display: block;
+    position: absolute;
+    top: -$space;
+    bottom: -$space;
+    left: -$space;
+    right: $space-xl;
+    z-index: -1;
+}

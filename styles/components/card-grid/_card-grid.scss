@@ -1,0 +1,7 @@
+&-card-grid {
+    overflow: auto;
+    padding-bottom: $space;
+    width: 100%;
+
+    @import "item";
+}
