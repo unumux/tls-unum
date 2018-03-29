@@ -60,3 +60,6 @@ typings/
 # Ignore .min and .map files
 *.min.*
 *.map
+
+# Mac thumbnail files
+Thumbs.db
